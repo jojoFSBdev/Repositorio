@@ -1,0 +1,118 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:monospace;
+    font-size: 20px;
+    flex: 1 1 0;
+}
+
+.card {
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5cqmin 0;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(61, 1, 75, 0.071);
+    background-image: url(../images/87771621-fundo-roxo-abstrato-do-teste-padrão-da-tecnologia-com-circuito-de-incandescência-tecnologia.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 1000px 365px;
+}
+
+.infoTop {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    align-items: center;
+}
+
+.divFoto{
+    padding: 0 50px;
+}
+
+.foto {
+    width: 270px;
+    border: rgb(240, 255, 255) 3px solid;
+    border-radius: 5px;
+}
+
+.foto:hover {
+    border: #C8E86F 3px solid;
+}
+
+.infoTopRight {
+    text-align: center;
+    color: rgb(240, 255, 255);
+    font-size: 25px;
+}
+
+.infoTopRight b:hover {
+    color: #C8E86F;
+}
+
+.icon {
+    width: 40px;
+}
+
+.redesSociais {
+    display:grid;
+    grid-template-columns: 70px 70px 70px;
+    margin: 10px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divIcon .icon {
+    position: absolute;
+}
+
+.divIcon #hoverIcon {
+    opacity: 0;
+}
+
+.divIcon #hoverIcon:hover {
+    opacity: 100%;
+}
+
+.infoBot {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    margin-top: 50px;  
+}
+
+.quemSou b {
+    color: #E610AD;
+}
+
+.buttomCurriculo {
+    border: 2px solid rgba(0, 0, 0, 0.234);
+    border-radius: 15px ;
+    background-color: rgb(171, 171, 171);
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+.buttomCurriculo:hover {
+    background-color: rgb(98, 98, 98);
+}
+
+.listaInfo {
+    margin: 0;
+}
+
+.listaInfo li {
+    display: grid;
+    grid-template-columns: 170px 200px;
+    margin: 15px 0;
+}
+
+.telefone {
+    letter-spacing: -1.5px;
+}
